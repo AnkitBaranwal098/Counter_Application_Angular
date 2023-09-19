@@ -1,18 +1,3 @@
-.counter-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-h1{
-    font-size: 5rem;
-}
-.btn-container{
-    display: flex;
-    align-items: center;
-}
-
-/* button-css */
 .counter-btn{
     padding: 20px 25px;
     margin-right: 1rem;;

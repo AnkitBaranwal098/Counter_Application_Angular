@@ -1,0 +1,11 @@
+<div class="counter-container">
+  <h1 class="counter-number">{{value}}</h1>
+  <div class="btn-container">
+    <button class="counter-btn" name="increement" (click)="changeValue($event)">
+      {{plus}}
+  </button>
+  <button class="counter-btn" name="decreement" (click)="changeValue($event)">
+    {{minus}}
+</button>
+  </div>
+</div>
